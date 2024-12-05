@@ -46,7 +46,7 @@ Properly managing missing data is essential to prevent errors during processing 
    If some columns are missing within a dataframe, keep the empty columns intact, including their headers. Do not delete them.
 
 ##### Time Zones
-The script assumes that the input data is in UTC, which it converts to CEST. If your data is not in UTC, you must adjust the script to correctly read and convert the data to your target time zone.
+The script assumes that the input data is in UTC, which it converts to CEST. If your data is not in UTC or your target timezone is not CEST, you must adjust the script to correctly read and convert the data to your target time zone.
 
 ##### Base Pay Types
 The spreadsheet and script are configured to process three distinct types of base pay. Ensure your input aligns with the expected format for accurate results.
